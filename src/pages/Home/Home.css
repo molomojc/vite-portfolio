@@ -1,0 +1,93 @@
+.home-container
+{
+    background: linear-gradient(90deg, #000000, #737373);
+    width: 100%;
+    height: 676px;
+    position: relative;
+    top: 19px;
+    left: -122px;         /* Aligns it to the left */
+    width: 1522px;     /* Makes it span the full width */
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.profile
+{
+    position: relative;
+    border-radius: 50%;
+   /* border: solid 5px #54effa; */
+    width: 550px;
+    left: 610px;
+}
+.profile img{
+    width: 1000px;
+    height: 750px;
+    position: relative;
+    top: -299px;
+}
+
+  
+.intro 
+{
+    position: relative;
+    top: 30px;
+    left: -600px;
+    font-family: 'Courier New', Courier, monospace;
+    color:aliceblue; 
+}
+
+.name
+{
+    left: -500px;
+    top: 70px;
+    position: relative;
+    color: white;
+}
+
+.name-highlight
+{
+    color: grey;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description
+{
+    position: relative;
+    top: 60px;
+    left: -310px; 
+    color:white; 
+    font-size: 30px;
+}
+.description2
+{
+    position: relative;
+    top: 60px;
+    left: -298px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+}
+
+.talk
+{
+    position: relative;
+    top: 100px;
+    left: -400px;
+    padding: 15px 10px;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    border: white 7px solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+.notice
+{
+    position: relative;
+    left: -300px;
+    top: 300px;
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}

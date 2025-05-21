@@ -1,0 +1,77 @@
+/* Navbar container */
+.navBar {
+ 
+  background: linear-gradient(90deg, #000000, #737373);;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Keeps it at the top of the viewport */
+  top: 0;          /* Aligns it to the top */
+  left: 0;         /* Aligns it to the left */
+  width: 100%;     /* Makes it span the full width */
+  z-index: 1000;
+}
+
+/* Container inside the nav */
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styles */
+.navbar-logo .logo {
+  height: 50px;
+  object-fit: contain;
+  display: inline-block;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+}
+.navbar-logo-text .logo-text
+{
+  height: 50px;
+  object-fit: contain;
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  left: 76px;
+}
+
+/* Navigation list */
+.nav-list {
+  list-style: none;
+  position: relative;
+  left: 80%;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;  /* not strictly needed now, but good if in column mode */
+}
+/* Individual nav item */
+.nav-item a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+  color: #00bcd4;
+}
+
+/* Error message */
+.error {
+  margin-top: 1rem;
+  color: #ff5252;
+  background-color: #2f1e1e;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
